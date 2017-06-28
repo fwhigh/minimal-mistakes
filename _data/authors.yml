@@ -1,0 +1,21 @@
+# Authors
+
+Will High:
+  name        : "Will High"
+  # uri         : "http://thewhip.com"
+  email       : #"billy@rick.com"
+  bio         : "Data scientist."
+  avatar      : "/assets/images/203792_square.jpg"
+  location    : "Los Angeles, CA"
+  twitter     : "fwhigh"
+  google_plus : "FWilliamHigh"
+  linkedin    : "fwhigh"
+  facebook    : "fwhigh"
+
+Cornelius Fiddlebone:
+  name        : "Cornelius Fiddlebone"
+  email       : "cornelius@thewhip.com"
+  bio         : "I ordered what?"
+  avatar      : "/assets/images/bio-photo.jpg"
+  twitter     : "rhymeswithsackit"
+  google_plus : "CorneliusFiddlebone"
