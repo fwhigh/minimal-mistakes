@@ -5,7 +5,9 @@ comments: true
 categories: 
 ---
 
-# [http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
+http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm
+
+[http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/](http://haixing-hu.github.io/programming/2013/09/20/how-to-use-mathjax-in-jekyll-generated-github-pages/)
 
 \begin{equation}
 f=ma
@@ -13,7 +15,7 @@ f=ma
 
 And $f=ma$.
 
-# [http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/)
+[http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/)
 
 Let’s try a first example. Here’s a dummy equation:
 
@@ -26,7 +28,7 @@ $$ \mathbf{X}_{n,p} = \mathbf{A}_{n,k} \mathbf{B}_{k,p} $$
 
 To display inline math use `\\( ... \\)` like this `\\( sin(x^2) \\)` which gets rendered as \\( sin(x^2) \\).
 
-# [https://kramdown.gettalong.org/syntax.html#math-blocks](https://kramdown.gettalong.org/syntax.html#math-blocks)
+[https://kramdown.gettalong.org/syntax.html#math-blocks](https://kramdown.gettalong.org/syntax.html#math-blocks)
 
 $$
 \begin{align*}

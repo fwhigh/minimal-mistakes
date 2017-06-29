@@ -25,7 +25,9 @@ X = SAMPLE data p;
 for some number $p$ between 0 and 1. If you need $k$ samples, typically you'd naively choose $p = k/N$, **but this only gives you $k$ on average -- sometimes less, sometimes more**. **If you must have at least $k$ samples use**
 
 $$
+\begin{equation}
 p = \frac{1}{N}\left(k + \frac{1}{2} z^2 + \frac{1}{2}\sqrt{z^2(4k + z^2)}\right).
+\end{equation}
 $$
 
 The table below helps in choosing $z$. It reads like this: setting $z$ to the specified value guarantees you'll get at least $k$ about $CL$ of the time for any $k$ larger than 20 or so; for smaller $k$ you'll do even better.
