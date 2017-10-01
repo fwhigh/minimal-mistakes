@@ -60,13 +60,13 @@ Do the [`chalice` helloworld](http://chalice.readthedocs.io/en/latest/quickstart
 BASEURL=https://brycp1llxh.execute-api.us-west-2.amazonaws.com/api
 ```
 
-When you deploy in local mode like this
+When you deploy in local mode you'll specify a port.
 
 ```bash
 chalice local --port 5005
 ```
 
-you'll specify a port and then set the URL variable. In the terminal window where you'll be issuing requests:
+It this case you'll set the base URL variable differently.
 
 ```bash
 PORT=5005
@@ -187,7 +187,7 @@ app = Chalice(app_name='helloworld')
 
 @app.route('/')
 def index():
-    return {'status': 'up'}
+    return {'hello': 'world'}
 
 
 @app.route('/objects/{key}', methods=['GET', 'PUT'])
