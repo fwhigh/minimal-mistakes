@@ -1,5 +1,5 @@
 ---
-title: "Hacking a serverless machine-learning scoring microservice with AWS Lambda"
+title: "Hacking a Serverless Machine-Learning Scoring Microservice with AWS Lambda"
 date: 2017-09-29 0:00:00 -0700
 comments: true
 categories: 
