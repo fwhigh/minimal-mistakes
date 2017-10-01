@@ -1,6 +1,6 @@
 ---
 title: "Hacking a serverless machine-learning scoring microservice with AWS Lambda"
-date: 2017-09-28 0:00:00 -0700
+date: 2017-09-29 0:00:00 -0700
 comments: true
 categories: 
   - machine learning
@@ -9,9 +9,10 @@ tags:
   - python
   - aws
   - lambda
+excerpt: In this post I'll attempt to hack a `scikit-learn` model prediction microservice with AWS Lambda.
 ---
 
-In this post I'll outline a hack of a `scikit-learn` model prediction microservice with AWS Lambda. This can be called a "serverless machine-learning scoring microservice". It's a mouthful o' buzzwords, but it's a sneak peak at an exciting advancement in efficient, scalable cloud technology for serving up machine learning model predictions over the web for anybody and anything wishing to consume them, like web and mobile apps, dynamic visualizations, Shiny/Django/Rails apps and possibly batch processes requiring batch predictions.
+In this post I'll attempt to hack of a `scikit-learn` model prediction microservice with AWS Lambda. This can be called a "serverless machine-learning scoring microservice". It's a mouthful o' buzzwords, but it's a sneak peak at an exciting advancement in efficient, scalable cloud technology for serving up machine learning model predictions over the web for anybody and anything wishing to consume them, like web and mobile apps, dynamic visualizations, Shiny/Django/Rails apps and possibly batch processes requiring batch predictions.
 
 The service works great on my local machine. Lambda has a 50Mb limit on the deployed package size but the smallest I've managed to get mine is about 75 Mb, so AWS errors out when I deploy it to the cloud. If I could bump up that limit then I'm all but certain it will work in the cloud just as well, and better under Lambda's infrastructure for scalability.
 
