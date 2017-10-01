@@ -1,3 +1,23 @@
+# View locally
+
+```bash
+bundle exec jekyll serve --watch --drafts
+```
+
+View on http://127.0.0.1:4000/.
+
+# Deploy
+
+```bash
+git commit -m "message" -a
+git push
+```
+# Useful commands
+
+```bash
+bundle show minima
+```
+
 # [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![GitHub release](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://github.com/mmistakes/minimal-mistakes/releases) [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)

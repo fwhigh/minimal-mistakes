@@ -157,7 +157,7 @@ The `debiased_reg.py` script follows.
 
 {% include gist_embed.html data_gist_id="fwhigh/806ed8f8c1737d64efada44bbd6d05c7" data_gist_file="debiased_reg.py" %}
 
-I can't be sure I'm not subject to strong sampling uncertainty from this one simulation run under the parameter settings, so I'll run many simulations. 
+I can't be sure a single iteration of the experiment is not subject to strong sampling uncertainty under my parameter settings, so I want to run many simulations.
 
 
 # Public Machine Learning Data Sets
