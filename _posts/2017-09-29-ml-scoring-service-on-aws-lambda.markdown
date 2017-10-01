@@ -229,7 +229,7 @@ My response is
 
 Run it a second time, and you should notice a significantly faster prediction. This is because the model file is pulled from S3 just the first time and memoized (cached) forever thereafter, eliminating any need for additional S3 data transfer. I'm seeing sub-10ms response time in local mode.
 
-And that's the hack. This is a great way to define and deploy scalable services that use resources efficiently, and I'm sure if I paid Amazon money they would increase my Lambda limits.
+And that's the hack. This is a great way to define and deploy scalable services that use resources efficiently. without ever having to deal with Ubuntu or Docker---and I'm sure if I paid Amazon money they would increase my Lambda limits.
 
 # Appendix
 
