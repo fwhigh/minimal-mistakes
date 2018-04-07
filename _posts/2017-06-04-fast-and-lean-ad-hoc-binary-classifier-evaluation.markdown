@@ -3,7 +3,9 @@ title: "Fast and Lean Ad Hoc Binary Classifier Evaluation"
 date: 2015-03-08 14:05:20 -0700
 comments: true
 author: "Will High"
-categories: statistics, streaming algorithms
+categories: 
+  - statistics
+  - streaming algorithms
 ---
 
 {% include toc %}

@@ -1,0 +1,7 @@
+<div class="gist-embed-link">
+<a  href="https://gist.github.com/{{ include.data_gist_id }}#file-{{ include.data_gist_file | replace: '.', '-' | downcase }}">
+gist</a>
+<a  href="https://gist.github.com/{{ include.data_gist_id }}/raw/{{ include.data_gist_file }}">
+raw</a>
+<code class="gist-embed-code" data-gist-id="{{ include.data_gist_id }}" data-gist-file="{{ include.data_gist_file }}" data-gist-hide-footer="true" data-gist-show-spinner="true"  gist-enable-cache="true" {% if include.data_gist_line %} data-gist-line="{{ include.data_gist_line }}" {% endif %}></code>
+</div>
