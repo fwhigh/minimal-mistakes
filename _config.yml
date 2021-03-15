@@ -11,11 +11,10 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes@4.22.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-theme                    : minimal-mistakes-jekyll
 title                    : "High on Science"
 locale                   : "en-US"
 title_separator          : "-"
@@ -96,7 +95,7 @@ analytics:
 author:
   name             : "Will High"
   avatar           : "/assets/images/203792_square.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data scientist."
+  bio              : "Machine learning data scientist and PhD physicist. Currently at Netflix. Views mine."
   location         : "Los Angeles, CA"
   email            :
   links:
